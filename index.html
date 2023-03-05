@@ -2,11 +2,37 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="https://www.google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div class="container">
+            <div class="nav">
+                <div class="nav-links">
+                    <div>
+                        <a href="#">Images</a>
+                    </div>
+                    <div>
+                        <a href="#">Advanced</a>
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="graphic">
+                    <div class="logo">
+                        <!--TODO-->
+                    </div>
+                    <form action="https://www.google.com/search"></form>
+                        <div class="searchbar">
+                            <input type="text" name="q">
+                        </div>
+                        <div class="buttons">
+                            <input type="submit" value="Google Search">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
