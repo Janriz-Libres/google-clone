@@ -1,40 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Search</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="nav">
-                <div class="nav-links">
-                    <div class="link-cell">
-                        <div>
-                            <a href="#">Images</a>
-                        </div>
-                        <div>
-                            <a href="#">Advanced</a>
-                        </div>
+<head>
+    <meta charset="utf-8">            
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Google Clone Search</title>
+    <link rel="stylesheet" type="text/css" href="utilities/reset.css">
+    <link rel="stylesheet" type="text/css" href="compiled/nav.css">
+    <link rel="stylesheet" type="text/css" href="compiled/style.css">
+    <link rel="stylesheet" type="text/css" href="compiled/main.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-links">
+            <a href="images.html">Images</a>
+            <a href="advanced.html">Advanced</a>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-row">
+            <div class="filler"></div>
+        </div>
+        <div class="content-row">
+            <div class="graphics">
+                <img class="logo" src="graphics/image.jpg" alt="Google Logo">
+                <form action="https://www.google.com/search">
+                    <div class="search search-main">
+                        <div class="icon"><img src="graphics/search.svg" alt="Search Icon"></div>
+                        <input class="text-field" type="text" name="q">
                     </div>
-                </div>
-            </div>
-            <div class="content">
-                <div class="graphic">
-                    <div class="logo">
-                        <!--TODO-->
-                    </div>
-                    <form action="https://www.google.com/search"></form>
-                        <div class="searchbar">
-                            <input type="text" name="q">
-                        </div>
-                        <div class="buttons">
-                            <input type="submit" value="Google Search">
-                        </div>
-                    </form>
-                </div>
+                    <input class="submit-btn-click" type="submit" value="Google Search">
+                </form>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
