@@ -1,5 +1,4 @@
-@use 'variables'as v;
-@use 'classes';
+@use 'components' as c;
 
 .search-main {
     @extend %search-default;
@@ -7,17 +6,17 @@
 }
 
 .submit-btn-click {
+    @include c.text-element(14px, #3c4043);
+    font-family: arial, sans-serif;
     display: block;
     height: 36px;
     min-width: 54px;
     margin: 0 auto;
     margin-top: 30px;
     padding: 0 16px;
-    border: 1px solid v.$main-btn-color;
+    border: 1px solid c.$main-btn-color;
     border-radius: 4px;
-    font: 14px Arial, sans-serif;
-    background-color: v.$main-btn-color;
-    color: #3c4043;
+    background-color: c.$main-btn-color;
     cursor: pointer;
 }
 

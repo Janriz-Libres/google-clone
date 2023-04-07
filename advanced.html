@@ -7,6 +7,7 @@
     <title>Advanced Search</title>
     <link rel="stylesheet" href="utilities/reset.css">
     <link rel="stylesheet" type="text/css" href="compiled/nav.css">
+    <link rel="stylesheet" type="text/css" href="compiled/advanced.css">
 </head>
 
 <body>
@@ -21,25 +22,62 @@
     </div>
     <div class="separator"></div>
     <div class="content">
-        <div class="fields">
-            <div class="row">
-                <div class="first-col-header">Find pages with...</div>
-                <div class="filler"></div>
-                <div class="last-col-header"></div>
+        <form action="https://www.google.com/search">
+            <div class="fields">
+                <div class="row">
+                    <div class="cell first-header">Find pages with...</div>
+                    <div class="cell field-col"></div>
+                    <div class="cell last-header">To do this in the search box</div>
+                </div>
+                <div class="row">
+                    <div class="cell first-col">all these words:</div>
+                    <div class="cell field-col">
+                        <input class="text-field" type="text" name="as_q">
+                    </div>
+                    <div class="cell last-col">
+                        Type the important words: &nbsp;<span>tricolor rat terrier</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell first-col">this exact word or phrase:</div>
+                    <div class="cell field-col">
+                        <input class="text-field" type="text" name="as_epq">
+                    </div>
+                    <div class="cell last-col">
+                        Put exact words in quotes: &nbsp;<span> "rat terrier"</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell first-col">any of these words:</div>
+                    <div class="cell field-col">
+                        <input class="text-field" type="text" name="as_oq">
+                    </div>
+                    <div class="cell last-col">
+                        Type <span>OR</span> between all the words you want: &nbsp;
+                        <span> miniature OR standard</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell first-col">none of these words:</div>
+                    <div class="cell field-col">
+                        <input class="text-field" type="text" name="as_eq">
+                    </div>
+                    <div class="cell last-col">
+                        <p>
+                            Put a minus sign just before words you don't want:<br>
+                            <span>&nbsp;-rodent, -"Jack Russell"</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="cell"></div>
+                    <div class="cell field-col">
+                        <input class="submit-btn-adv" type="submit" value="Advanced Search">
+                    </div>
+                    <div class="cell"></div>
+                </div>
             </div>
-            <div class="row">
-            </div>
-            <div class="row">
-            </div>
-            <div class="row">
-            </div>
-            <div class="row">
-            </div>
-            <div class="row">
-            </div>
-            <div class="row">
-            </div>
-        </div>
+        </form>
         <div class="separator"></div>
     </div>
 </body>

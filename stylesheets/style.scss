@@ -1,21 +1,20 @@
-@use 'variables'as v;
-@use 'classes';
+@use 'components'as c;
 
 .content {
     display: table;
     table-layout: fixed;
-    height: calc(100vh - v.$nav-height);
-    width: v.$page-width;
+    height: calc(100vh - c.$nav-height);
+    width: c.$page-width;
     margin: 0 auto;
     padding: 0 15px;
 
     .content-row {
         display: table-row;
-    }
 
-    .filler {
-        display: table-cell;
-        height: 10%;
+        .filler {
+            display: table-cell;
+            height: 10%;
+        }
     }
 
     .graphics {

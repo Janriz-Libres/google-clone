@@ -13,6 +13,9 @@
 }
 
 .submit-btn-click {
+  font-size: 14px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
   display: block;
   height: 36px;
   min-width: 54px;
@@ -21,9 +24,7 @@
   padding: 0 16px;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
-  font: 14px Arial, sans-serif;
   background-color: #f8f9fa;
-  color: #3c4043;
   cursor: pointer;
 }
 

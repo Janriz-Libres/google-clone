@@ -1,14 +1,14 @@
-@use 'classes';
+@use 'components' as c;
 
 .graphics {
     position: relative;
 
     .text-label {
         position: absolute;
-        top: 35px;
+        top: 30px;
         right: 110px;
-        color: #4285f4;
-        font: 16px roboto-regular, arial, sans-serif;
+        font-family: roboto-regular, arial, sans-serif;
+        @include c.text-element(16px, #4285f4);
     }
 
     .search-images {

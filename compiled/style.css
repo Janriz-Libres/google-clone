@@ -9,7 +9,7 @@
 .content .content-row {
   display: table-row;
 }
-.content .filler {
+.content .content-row .filler {
   display: table-cell;
   height: 10%;
 }

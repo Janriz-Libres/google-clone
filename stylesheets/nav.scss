@@ -1,8 +1,8 @@
-@use 'variables'as v;
+@use 'components' as c;
 
 .nav {
-    height: v.$nav-height;
-    min-width: v.$page-width;
+    height: c.$nav-height;
+    min-width: c.$page-width;
 
     .nav-links {
         width: fit-content;
@@ -10,9 +10,9 @@
         padding-right: 8px;
 
         a {
-            color: rgba(0, 0, 0, 0.87);
-            font: 13px Arial, sans-serif;
-            line-height: v.$nav-height;
+            @include c.text-element($c: rgba(0, 0, 0, 0.87));
+            font-family: arial, sans-serif;
+            line-height: c.$nav-height;
             text-decoration: none;
             margin-right: 10px;
         }

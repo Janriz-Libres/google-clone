@@ -8,8 +8,9 @@
   padding-right: 8px;
 }
 .nav .nav-links a {
+  font-size: 13px;
   color: rgba(0, 0, 0, 0.87);
-  font: 13px Arial, sans-serif;
+  font-family: arial, sans-serif;
   line-height: 60px;
   text-decoration: none;
   margin-right: 10px;
