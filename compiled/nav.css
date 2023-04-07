@@ -1,0 +1,21 @@
+.nav {
+  height: 60px;
+  min-width: 612px;
+}
+.nav .nav-links {
+  width: fit-content;
+  margin-left: auto;
+  padding-right: 8px;
+}
+.nav .nav-links a {
+  color: rgba(0, 0, 0, 0.87);
+  font: 13px Arial, sans-serif;
+  line-height: 60px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.nav .nav-links a:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=nav.css.map */

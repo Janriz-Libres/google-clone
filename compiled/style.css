@@ -1,0 +1,49 @@
+.content {
+  display: table;
+  table-layout: fixed;
+  height: calc(100vh - 60px);
+  width: 612px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.content .content-row {
+  display: table-row;
+}
+.content .filler {
+  display: table-cell;
+  height: 10%;
+}
+.content .graphics {
+  display: table-cell;
+}
+.content .graphics .logo {
+  width: 70%;
+  margin: 0 auto;
+}
+.content .graphics .icon {
+  display: table-cell;
+  vertical-align: middle;
+  width: 35px;
+}
+.content .graphics .icon img {
+  opacity: 0.5;
+  width: 20px;
+}
+.content .graphics .text-field {
+  display: table-cell;
+  width: 100%;
+  height: inherit;
+  font: 16px Arial, sans-serif;
+  border: none;
+  outline: none;
+  border-radius: inherit;
+}
+.content .graphics .text-field:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 30px white inset;
+}
+.content .graphics .search:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+/*# sourceMappingURL=style.css.map */

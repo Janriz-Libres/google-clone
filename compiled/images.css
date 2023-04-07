@@ -1,0 +1,32 @@
+.graphics .search-images {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 44px;
+  margin-top: 10px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+}
+
+.graphics {
+  position: relative;
+}
+.graphics .text-label {
+  position: absolute;
+  top: 35px;
+  right: 110px;
+  color: #4285f4;
+  font: 16px roboto-regular, arial, sans-serif;
+}
+.graphics .search-images {
+  padding: 0 1px 0 12px;
+}
+.graphics .search-images .submit-btn-img {
+  display: table-cell;
+  width: 48px;
+  padding-left: 6px;
+  vertical-align: middle;
+  filter: invert(44%) sepia(92%) saturate(1340%) hue-rotate(161deg) brightness(94%) contrast(101%);
+}
+
+/*# sourceMappingURL=images.css.map */

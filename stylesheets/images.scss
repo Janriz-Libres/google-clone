@@ -1,0 +1,26 @@
+@use 'classes';
+
+.graphics {
+    position: relative;
+
+    .text-label {
+        position: absolute;
+        top: 35px;
+        right: 110px;
+        color: #4285f4;
+        font: 16px roboto-regular, arial, sans-serif;
+    }
+
+    .search-images {
+        @extend %search-default;
+        padding: 0 1px 0 12px;
+
+        .submit-btn-img {
+            display: table-cell;
+            width: 48px;
+            padding-left: 6px;
+            vertical-align: middle;
+            filter: invert(44%) sepia(92%) saturate(1340%) hue-rotate(161deg) brightness(94%) contrast(101%);
+        }
+    }
+}

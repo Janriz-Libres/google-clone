@@ -1,0 +1,28 @@
+@use 'variables'as v;
+@use 'classes';
+
+.search-main {
+    @extend %search-default;
+    padding: 0 12px;
+}
+
+.submit-btn-click {
+    display: block;
+    height: 36px;
+    min-width: 54px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 0 16px;
+    border: 1px solid v.$main-btn-color;
+    border-radius: 4px;
+    font: 14px Arial, sans-serif;
+    background-color: v.$main-btn-color;
+    color: #3c4043;
+    cursor: pointer;
+}
+
+.submit-btn-click:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    border-color: #dadce0;
+    color: #202124;
+}

@@ -1,0 +1,59 @@
+@use 'variables'as v;
+@use 'classes';
+
+.content {
+    display: table;
+    table-layout: fixed;
+    height: calc(100vh - v.$nav-height);
+    width: v.$page-width;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    .content-row {
+        display: table-row;
+    }
+
+    .filler {
+        display: table-cell;
+        height: 10%;
+    }
+
+    .graphics {
+        display: table-cell;
+
+        .logo {
+            width: 70%;
+            margin: 0 auto;
+        }
+
+        .icon {
+            display: table-cell;
+            vertical-align: middle;
+            width: 35px;
+
+            img {
+                opacity: 0.5;
+                width: 20px;
+            }
+        }
+
+        .text-field {
+            display: table-cell;
+            width: 100%;
+            height: inherit;
+            font: 16px Arial, sans-serif;
+            border: none;
+            outline: none;
+            border-radius: inherit;
+        }
+
+        .text-field:-webkit-autofill {
+            -webkit-box-shadow: 0 0 0 30px white inset;
+        }
+
+        .search:hover {
+            box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+            border-color: rgba(223, 225, 229, 0);
+        }
+    }
+}
