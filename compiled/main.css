@@ -12,7 +12,10 @@
   padding: 0 12px;
 }
 
-.submit-btn-click {
+.buttons {
+  margin-top: 30px;
+}
+.buttons input {
   font-size: 14px;
   color: #3c4043;
   font-family: arial, sans-serif;
@@ -20,15 +23,14 @@
   height: 36px;
   min-width: 54px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-bottom: 10px;
   padding: 0 16px;
   border: 1px solid #f8f9fa;
   border-radius: 4px;
   background-color: #f8f9fa;
   cursor: pointer;
 }
-
-.submit-btn-click:hover {
+.buttons input:hover {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   border-color: #dadce0;
   color: #202124;

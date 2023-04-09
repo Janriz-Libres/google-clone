@@ -1,27 +1,31 @@
-@use 'components' as c;
+@use 'components'as c;
 
 .search-main {
     @extend %search-default;
     padding: 0 12px;
 }
 
-.submit-btn-click {
-    @include c.text-element(14px, #3c4043);
-    font-family: arial, sans-serif;
-    display: block;
-    height: 36px;
-    min-width: 54px;
-    margin: 0 auto;
+.buttons {
     margin-top: 30px;
-    padding: 0 16px;
-    border: 1px solid c.$main-btn-color;
-    border-radius: 4px;
-    background-color: c.$main-btn-color;
-    cursor: pointer;
-}
 
-.submit-btn-click:hover {
-    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-    border-color: #dadce0;
-    color: #202124;
+    input {
+        @include c.text-element(14px, #3c4043);
+        font-family: arial, sans-serif;
+        display: block;
+        height: 36px;
+        min-width: 54px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding: 0 16px;
+        border: 1px solid c.$main-btn-color;
+        border-radius: 4px;
+        background-color: c.$main-btn-color;
+        cursor: pointer;
+    }
+
+    input:hover {
+        box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+        border-color: #dadce0;
+        color: #202124;
+    }
 }
