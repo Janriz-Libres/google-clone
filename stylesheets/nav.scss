@@ -2,7 +2,6 @@
 
 .nav {
     height: c.$nav-height;
-    min-width: c.$page-width;
 
     .nav-links {
         width: fit-content;
@@ -21,4 +20,8 @@
             text-decoration: underline;
         }
     }
+}
+
+.nav-default {
+    min-width: c.$page-width;
 }
