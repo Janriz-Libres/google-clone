@@ -15,9 +15,9 @@
 - Styled using Sass to closely mimic Google's appearance
 
 ## Built With
-* [![HTML][HTML-logo]][HTML-url] : Markup language for structuring the web page
-* [![CSS][CSS-logo]][CSS-url] : Stylesheet language for presentation
-* [![Sass][Sass-logo]][Sass-url] : CSS preprocessor for styling
+* [![HTML][HTML-logo]][HTML-url]
+* [![CSS][CSS-logo]][CSS-url]
+* [![Sass][Sass-logo]][Sass-url]
 
 [HTML-logo]: https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white
 [HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
